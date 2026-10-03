@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Your Dream Car</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="game">
+    <div class="scanlines"></div>
+
+    <header class="topbar">
+      <div class="brand">DREAM//CAR</div>
+      <div class="stage" id="stageLabel">GARAGE 01</div>
+      <div class="score">★ <span id="score">000</span></div>
+    </header>
+
+    <section id="screen" class="screen"></section>
+
+    <section class="dialogue hidden" id="dialogue">
+      <div class="host-avatar" id="hostAvatar" aria-hidden="true"></div>
+      <div class="dialogue-box">
+        <div class="speaker">YOU</div>
+        <p id="dialogueText"></p>
+        <button id="dialogueNext" class="pixel-button small">NEXT ▶</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
